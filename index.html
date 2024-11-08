@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Parisienne&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mariana Magalhaes - Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <section class="header__container">
+        <div class="header__branding">
+          <p class="header__name">MM</p>
+        </div>
+
+        <div class="header__navigation">
+          <button class="menu-toggle" id="open__menu" aria-label="Abrir menu">
+            &#9776;
+          </button>
+          <button class="menu-toggle" id="close__menu" aria-label="Fechar menu">
+            X
+          </button>
+
+          <nav class="menu" aria-label="Menu principal">
+            <ul class="menu__list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">Sobre Mim</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Experiências</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="home" class="home">
+        <div class="home__text">
+          <h1>< Olá!, meu nome é Mariana Magalhães e construo páginas web ></h1>
+          <h2 class="home__text__subtitle">
+            Eu sou formada em lorem ipsum sit amet consectetur e atualmente
+            estou participando no projeto Oracle ONE na Alura.
+          </h2>
+
+          <ul class="link__list">
+            <li>
+              <a href="https://github.com/scppuna" target="_blank"
+                >Github
+                <img
+                  class="arrow__back"
+                  src="images/arrow_back.png"
+                  alt="Imagem de flecha para retorno"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/marianamagalhaeslopes/" target="_blank"
+                >Linkedin
+                <img
+                  class="arrow__back"
+                  src="images/arrow_back.png"
+                  alt="Imagem de flecha para retorno"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/oiesouamari/" target="_blank"
+                >Instagram
+                <img
+                  class="arrow__back"
+                  src="images/arrow_back.png"
+                  alt="Imagem de flecha para retorno"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="files/curriculo.pdf" target="_blank"
+                >Currículo
+                <img
+                  class="arrow__back"
+                  src="images/arrow_back.png"
+                  alt="Imagem de flecha para retorno"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <img src="images/mariana-magalhaes.jpg" class="home__img" />
+      </section>
+
+      <section id="about" class="about">
+        <div class="about__container">
+          <h1>Sobre mim</h1>
+          <article>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque velit velit, volutpat semper dignissim dictum,
+            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
+            potenti. Ut semper sagittis ligula et lacinia. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Pellentesque velit velit,
+            volutpat semper dignissim dictum, imperdiet ut lacus. Quisque
+            gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis
+            ligula et lacinia. Aenean sit amet felis venenatis, egestas metus
+            vitae, aliquet metus.
+          </article>
+        </div>
+      </section>
+
+      <section id="skills__hobbies__container" class="skills__hobbies">
+        <div class="skills__container">
+          <h1>Skills</h1>
+          <div class="skills__container__cards">
+            <div class="skill__card" id="skill__card__js">
+              <img src="images/javascript.png" alt="JavaScript" />
+              <figcaption>JavaScript</figcaption>
+            </div>
+
+            <div class="skill__card" id="skill__card__html">
+              <img src="images/html.png" alt="HTML5" />
+              <figcaption>HTML5</figcaption>
+            </div>
+
+            <div class="skill__card" id="skill__card__css">
+              <img src="images/css.png" alt="CSS" />
+              <figcaption>CSS</figcaption>
+            </div>
+
+            <div class="skill__card" id="skill__card__net">
+              <img src="images/net.png" alt=".Net" />
+              <figcaption>.NET</figcaption>
+            </div>
+
+            <div class="skill__card" id="skill__card__sql">
+              <img src="images/sql.png" alt="SQL" />
+              <figcaption>SQL</figcaption>
+            </div>
+          </div>
+        </div>
+
+        <div class="hobbies__container">
+          <h1>Hobbies</h1>
+
+          <div class="hobbies__container__cards">
+            <div class="hobbies__card" id="hobbies__card__reading">
+              <img src="images/ler.png" alt="Livro" />
+              <figcaption>Ler</figcaption>
+            </div>
+
+            <div class="hobbies__card" id="hobbies__card__writing">
+              <img src="images/escrevendo.png" alt="Escrevendo letras" />
+              <figcaption>Escrever</figcaption>
+            </div>
+
+            <div class="hobbies__card" id="hobbies__card__playing">
+              <img
+                src="images/jogando-video-games.png"
+                alt="Controle remoto no computador"
+              />
+              <figcaption>Jogar</figcaption>
+            </div>
+
+            <div class="hobbies__card" id="hobbies__card__songs">
+              <img src="images/notas-musicais.png" alt="Notas musicais" />
+              <figcaption>Música</figcaption>
+            </div>
+
+            <div class="hobbies__card" id="hobbies__card__gym">
+              <img src="images/mulher.png" alt="Mulher malhando" />
+              <figcaption>Academia</figcaption>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience">
+        <h1>Experiência Profissional</h1>
+        <div class="project__decodificador__container">
+          <img
+            src="images/experience.png"
+            class="experience__img__project"
+            alt="Experiência Profissional"
+          />
+          <div div class="experience__container">
+            <h1>Decodificador de texto</h1>
+            <h3 class="subtitle__experience">Challenge Alura Codificador</h3>
+            <button class="repository__decodificador__button">
+              Repositório
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h1>Contato</h1>
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/mdkogazg"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Seu nome"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Seu e-mail"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              placeholder="Sua mensagem"
+              rows="4"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- <a href="https://www.flaticon.com/br/icones-gratis/css" title="css ícones">Css ícones criados por Pixel perfect - Flaticon</a> -->
